@@ -4,7 +4,7 @@ BP ChangeLog
 BP 0.1.1-dev
 ------------
 
-* Add Python 3.13 and 3.14 to CI, retaining Linux and both macOS architectures.
+* Add Python 3.13, 3.14, and newly released 3.15 to CI for Linux and macOS.
 * Declare isolated build dependencies in pyproject.toml so setup.py can import
   NumPy, Cython, and Versioneer during modern pip builds.
 * Replace removed pkg_resources usage in test-data helpers with importlib.resources.
